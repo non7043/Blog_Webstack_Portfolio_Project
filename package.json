@@ -1,39 +1,41 @@
 {
-  "name": "graphcms-blog",
-  "version": "0.1.0",
-  "private": true,
+  "name": "server",
+  "version": "1.0.0",
   "engines": {
-    "node": ">=14.0"
+    "node": "12.x",
+    "npm": "6.x"
   },
-  "engineStrict": true,
+  "description": "This must be a fully built project on Node.js. ",
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
+  "keywords": [
+    "Node.js",
+    "Express.js",
+    "Passport.js"
+  ],
+  "author": "Jakaria Ridoy",
+  "license": "MIT",
   "dependencies": {
-    "graphql": "^15.6.1",
-    "graphql-request": "^3.5.0",
-    "html-react-parser": "^1.4.0",
-    "moment": "^2.29.1",
-    "next": "^11.1.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-multi-carousel": "^2.6.5",
-    "sass": "^1.42.1",
-    "swr": "^1.0.1"
-  },
-  "devDependencies": {
-    "autoprefixer": "^10.3.6",
-    "eslint": "^7.32.0",
-    "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-next": "11.1.2",
-    "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "postcss": "^8.3.8",
-    "tailwindcss": "^2.2.7"
+    "accesscontrol": "^2.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "passport-facebook": "^3.0.0"
   }
 }
