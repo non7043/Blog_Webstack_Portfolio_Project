@@ -246,7 +246,7 @@ const DisplayPost = (props) => {
                     <Button 
                         type="submit" 
                         onClick={ handleComment } 
-                        className="btn btn-primary">Add Comment</Button>
+                        className="btn btn-primary">Post Comment</Button>
                 }
                 </form>
             </div>    
