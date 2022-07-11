@@ -48,6 +48,9 @@ There is a Heroku post build script so that you do not have to compile your Reac
 - :hourglass_flowing_sand: Make users post Images, Videos, Code etc.
 - :hourglass_flowing_sand: Follow, Unfollow user
 - :hourglass_flowing_sand: Social Media Integration (Facebook, Google login/signup)
+- :hourglass_flowing_sand: Category to Posts
+- :hourglass_flowing_sand: Forum App
+- :hourglass_flowing_sand: Other Details
 
 ## Version
 
