@@ -51,12 +51,12 @@ app.use((error, req, res, next) => {
   });
 })
 
-// mongoose.connect('mongodb://localhost:27017/articlesDB', {
+// mongoose.connect('mongodb://localhost:27017/justblogit', {
 //   useNewUrlParser: true,
 //   useUnifiedTopology: true
 // })
 
-// DB Config
+// DB Config 
 mongoose.connect(db, {
     useNewUrlParser: true,
     useUnifiedTopology: true

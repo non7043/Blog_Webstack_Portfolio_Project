@@ -21,7 +21,7 @@
     "Express.js",
     "Passport.js"
   ],
-  "author": "Jakaria Ridoy",
+  "author": "Asmamaw & Abebe",
   "license": "MIT",
   "dependencies": {
     "accesscontrol": "^2.2.1",
