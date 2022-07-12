@@ -39,12 +39,18 @@ There is a Heroku post build script so that you do not have to compile your Reac
 - :pushpin: Redesign CKEditor section (currenlty not resposnsive). Make it responsive and better
 - :pushpin: Work on updating post
 - :pushpin: Redesign Footer
+- :pushpin: Profile Page
+- :pushpin: SignOut/Logout
+- :pushpin: Lots of Feature
 
 ## Future Release
 
 - :hourglass_flowing_sand: Make users post Images, Videos, Code etc.
 - :hourglass_flowing_sand: Follow, Unfollow user
 - :hourglass_flowing_sand: Social Media Integration (Facebook, Google login/signup)
+- :hourglass_flowing_sand: Category to Posts
+- :hourglass_flowing_sand: Forum App
+- :hourglass_flowing_sand: Other Details
 
 ## Version
 

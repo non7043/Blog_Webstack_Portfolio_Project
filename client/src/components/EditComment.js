@@ -75,7 +75,7 @@ export const EditComment = (props) => {
                         type="button" 
                         onClick={() => handleCommentEdit(props.postid, props.comment._id)}
                         data-dismiss="modal"
-                        className="btn btn-warning">Save changes</button>
+                        className="btn btn-warning">Update Comment</button>
                 </div>
                 </div>
             </div>
