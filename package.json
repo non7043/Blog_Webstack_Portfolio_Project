@@ -2,8 +2,8 @@
   "name": "server",
   "version": "1.0.0",
   "engines": {
-    "node": "12.x",
-    "npm": "6.x"
+    "node": "16.x",
+    "npm": "8.x"
   },
   "description": "This must be a fully built project on Node.js. ",
   "main": "server.js",
